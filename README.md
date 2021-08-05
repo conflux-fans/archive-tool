@@ -5,7 +5,7 @@ Use the curl command to resume downloading, if the system does not have curl, pl
 
 Support breakpoint resume
 
-### Use China
+### Use
 - Linux & Mac - Mainnet：  
 ```
 wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/fullnode-db/M/download.sh      
