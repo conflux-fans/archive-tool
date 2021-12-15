@@ -5,6 +5,8 @@ Use the curl command to resume downloading, if the system does not have curl, pl
 
 Support breakpoint resume
 
+PS：If there is an error, operate according to the script prompt  
+
 ### Use
 - Linux & Mac - Mainnet：  
 ```
