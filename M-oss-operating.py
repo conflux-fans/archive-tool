@@ -74,7 +74,7 @@ class Write_Script:
                 f.write("#Version: " + self.conflux_version + "\n")
                 f.write("#DB_Name: " + self.keyname + "\n")
                 f.write("#Customize_Date_Format: " + self.today + "\n")
-                f.write("#Retain for 2 days, every day at 0 a.m 、08 p.m 、16 p.m backup, format: year, month, day, hour\n")
+                f.write("#Retain for 1 days, every day at 0 a.m 、08 p.m 、16 p.m backup, format: year, month, day, hour\n")
                 f.write("#If there is no curl, please install: https://curl.se/download.html\n")
             with open(write_file_name_bash, 'a') as f:
                 f.write("Date=" + self.today + "\n")
@@ -92,7 +92,7 @@ class Write_Script:
                 f.write("::Version: " + self.conflux_version + "\n")
                 f.write("::DB_Name: " + self.keyname + "\n")
                 f.write("::Customize_Date_Format: " + self.today + "\n")
-                f.write("::Retain for 2 days, every day at 0 a.m 、08 p.m 、16 p.m backup, format: year, month, day, hour\n")
+                f.write("::Retain for 1 days, every day at 0 a.m 、08 p.m 、16 p.m backup, format: year, month, day, hour\n")
                 f.write("::If there is no curl, please install: https://curl.se/download.html\n")
             with open(write_file_name_bat, 'a') as f:
                 f.write("set Date=" + self.today + "\n")
