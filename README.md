@@ -10,7 +10,7 @@ PS：If there is an error, operate according to the script prompt
 ### Use
 - Linux & Mac - Mainnet：  
 ```
-wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archive-db/M/download.sh      
+wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/M/download.sh      
 ```
 ```
 bash download.sh  
@@ -18,7 +18,7 @@ bash download.sh
 
 - Linux & Mac - Testnet：  
 ```
-wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archive-db/T/download.sh  
+wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/T/download.sh  
 ```
 ```
 bash download.sh  
@@ -26,7 +26,7 @@ bash download.sh
 
 - Windows - Mainnet：  
 ```
-wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archive-db/M/download.bat    
+wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/M/download.bat    
 ```
 ```
 download.bat  
@@ -34,7 +34,7 @@ download.bat
 
 - Windows - Testnet：  
 ```
-wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archive-db/T/download.bat  
+wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/T/download.bat  
 ```
 ```
 download.bat  

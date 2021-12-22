@@ -78,7 +78,7 @@ class Write_Script:
                 f.write("#If there is no curl, please install: https://curl.se/download.html\n")
             with open(write_file_name_bash, 'a') as f:
                 f.write("Date=" + self.today + "\n")
-                f.write("Download_path=https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archive-db/M/" + self.project_name + "-${Date}" + ".tar.gz" + "\n")
+                f.write("Download_path=https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/M/" + self.project_name + "-${Date}" + ".tar.gz" + "\n")
                 f.write("httpcode=`curl -I -m 10 -o /dev/null -s -w %{http_code} $Download_path`\n")
                 f.write("[ $httpcode -eq 200 ] && curl -C - -O $Download_path || echo 'Sorry, service is upgrading or download the script again, Please try again later !'\n")
         except Exception as e:
@@ -96,7 +96,7 @@ class Write_Script:
                 f.write("::If there is no curl, please install: https://curl.se/download.html\n")
             with open(write_file_name_bat, 'a') as f:
                 f.write("set Date=" + self.today + "\n")
-                f.write("set Download_path=https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archive-db/M/" + self.project_name + "-%Date%" + ".tar.gz" + "\n")
+                f.write("set Download_path=https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/M/" + self.project_name + "-%Date%" + ".tar.gz" + "\n")
                 f.write("for /F %%i in ('curl -I -m 10 -o /dev/null -s -w %%{http_code} %Download_path%') do set httpcode=%%i\n")
                 f.write("if '%httpcode%' == '200' (curl -C - -O %Download_path%) else (echo 'Sorry, service is upgrading or download the script again, Please try again later !')\n")
         except Exception as e:
@@ -196,15 +196,15 @@ if __name__ == '__main__':
     :bucket_prefix：Bucket prefix path
     :bucket：Bucket name
     """
-    project_name = "conflux-archive-db-snapshot"
+    project_name = "conflux-archivenode-db-snapshot"
     today = time.strftime("%Y-%m-%d-%H", time.localtime())
     #today = (datetime.datetime.now()+datetime.timedelta(hours=8)).strftime("%Y-%m-%d-%H")
     keyname = project_name + '-' + today + ".tar.gz"
     keyname_bash = "download.sh"
     keyname_bat = "download.bat"
-    bucket_prefix = "archive-db" + "/" + "M" + "/" + keyname
-    bucket_prefix_bash = "archive-db" + "/" + "M" + "/" + keyname_bash
-    bucket_prefix_bat = "archive-db" + "/" + "M" + "/" + keyname_bat
+    bucket_prefix = "archivenode-db" + "/" + "M" + "/" + keyname
+    bucket_prefix_bash = "archivenode-db" + "/" + "M" + "/" + keyname_bash
+    bucket_prefix_bat = "archivenode-db" + "/" + "M" + "/" + keyname_bat
 
     """
     #Program information
