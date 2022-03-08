@@ -16,7 +16,7 @@ wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/
 wget https://conflux-blockchain-data-us.s3.us-west-1.amazonaws.com/archivenode-db/M/download.sh
 ```
 ```
-https://conflux-blockchain-data-eu.s3.eu-central-1.amazonaws.com/archivenode-db/M/download.sh
+wget https://conflux-blockchain-data-eu.s3.eu-central-1.amazonaws.com/archivenode-db/M/download.sh
 ```
 ```
 bash download.sh  
