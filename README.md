@@ -22,6 +22,14 @@ wget https://conflux-blockchain-data-eu.s3.eu-central-1.amazonaws.com/archivenod
 bash download.sh  
 ```
 
+- Linux & Mac - Mainnet - full node：  
+```
+wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/fullnode-db/M/download.sh      
+```
+```
+bash download.sh  
+```
+
 - Linux & Mac - Testnet：  
 ```
 wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/T/download.sh  
