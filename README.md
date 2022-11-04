@@ -53,3 +53,14 @@ wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/
 ```
 download.bat  
 ```
+
+- Linux & Mac - Mainnet - archive full state node：  
+```
+wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/fullstatenode-db/M/download.sh   
+```
+```
+wget https://conflux-blockchain-data-hk.oss-cn-hongkong.aliyuncs.com/fullstatenode-db/M/download.sh
+```
+```
+bash download.sh  
+```
