@@ -66,7 +66,7 @@ bash download.sh
 ```
 - Windows - Mainnet - archive full state node：
 ```
-https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/fullstatenode-db/M/download.bat
+wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/fullstatenode-db/M/download.bat
 ```
 ```
 wget https://conflux-blockchain-data-hk.oss-cn-hongkong.aliyuncs.com/fullstatenode-db/M/download.bat   
