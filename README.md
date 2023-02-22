@@ -38,12 +38,13 @@ $ wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/fullstatenode
 $ wget https://conflux-blockchain-data-hk.oss-cn-hongkong.aliyuncs.com/fullstatenode-db/M/download.sh
 ```
 ```
-$ bash download.sh  
+$ bash download.sh
+```
 
 - Linux & Mac - Testnet - archive node：  
 ```
 $ wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/T/download.sh  
 ```
 ```
-$ bash download.sh  
+$ bash download.sh
 ```
