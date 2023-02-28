@@ -48,3 +48,11 @@ $ wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-d
 ```
 $ bash download.sh
 ```
+
+- Windows - Testnet：  
+```
+wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/T/download.bat  
+```
+```
+download.bat  
+```
