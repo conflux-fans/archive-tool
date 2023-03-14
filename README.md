@@ -56,7 +56,7 @@ $ bash download.sh
 ```
 
 
-- Windows - Testnet：  
+- Windows - Testnet - archive node：  
 ```
 wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/T/download.bat  
 ```
