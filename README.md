@@ -52,7 +52,7 @@ $ bash download.sh
 
 - Linux & Mac - Testnet - archive node：  
 ```
-$ wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/T/download.sh  
+$ wget https://conflux-blockchain-bj.oss-cn-beijing.aliyuncs.com/archivenode-db/testnet/download.sh
 ```
 ```
 $ bash download.sh
@@ -61,7 +61,7 @@ $ bash download.sh
 
 - Windows - Testnet - archive node：  
 ```
-wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/archivenode-db/T/download.bat  
+wget https://conflux-blockchain-bj.oss-cn-beijing.aliyuncs.com/archivenode-db/testnet/download.bat
 ```
 ```
 download.bat  
