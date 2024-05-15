@@ -39,11 +39,12 @@ $ download.bat
 
 
 - Linux & Mac - Mainnet - full node：  
-```
-$ wget https://conflux-blockchain-data.oss-cn-beijing.aliyuncs.com/fullnode-db/M/download.sh      
-```
+
 ```
 $ wget https://conflux-blockchain-data-us.s3.us-west-1.amazonaws.com/fullnode-db/M/download.sh
+```
+```
+$ wget https://conflux-blockchain-bj.oss-cn-beijing.aliyuncs.com/fullnode-db/mainnet/download.sh
 ```
 ```
 $ bash download.sh  
